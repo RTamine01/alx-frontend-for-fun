@@ -205,7 +205,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    text-align: center; 
+    text-align: center;
   }
 
   .nav .nav-item + .nav-item {
@@ -250,9 +250,9 @@
       ============================= */
   
   .header-container {
-    align-items: center;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .header {
@@ -378,12 +378,11 @@
     flex-wrap: wrap;
   }
 
-  /*  Section ABOUT US
+  /* Section ABOUT US
       ============================= */
-
-      .section-about-us [class^="col-"] {
-        align-self: center;
-      }
+  .section-about-us [class*='col-'] {
+    align-self: center;
+  }
   
   /*** 4. CARD ***/
   
