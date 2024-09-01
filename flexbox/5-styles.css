@@ -61,7 +61,7 @@
   
     /** HEADER **/
     --header-padding: 4rem 0 0;
-      
+  
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
   
@@ -200,7 +200,6 @@
   /* Navbar
       ============================= */
   
-  
   .nav {
     margin: 0;
     padding: 0;
@@ -247,16 +246,16 @@
   /* Header
       ============================= */
   
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .header {
     padding: var(--header-padding);
     position: relative;
     z-index: 3;
     background: transparent;
-  }
-  
-  .header-container {
-    display: flex;
-    justify-content: space-between;
   }
   
   /* Footer
